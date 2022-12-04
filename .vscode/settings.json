@@ -1,0 +1,11 @@
+{
+    "files.autoSave": "afterDelay",
+    "ipynb.experimental.pasteImages.enabled": true,
+    "auto-close-tag.SublimeText3Mode": true,
+    "auto-close-tag.fullMode": true,
+    "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+    "better-comments.highlightPlainText": true,
+    "extensions.closeExtensionDetailsOnViewChange": true,
+    "extensions.ignoreRecommendations": true,
+    "extensions.experimental.useUtilityProcess": true
+}
