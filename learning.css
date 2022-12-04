@@ -17,8 +17,11 @@
 	background-color: #4e0013;
 }
 
-.line1
-{ 
-	margin: 0px 0;
+.line1{
+	margin: 0px;
 	border-top: 5px solid black;
-}	
+}
+
+#slideshow {
+	background-color: red;
+}
