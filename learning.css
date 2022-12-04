@@ -1,3 +1,4 @@
+/* A-C */
 * {
 	padding: 0px;
 	margin: 0px;
@@ -11,3 +12,8 @@
 #header {
 	background-color: #4e0013;
 }
+
+.line1
+{ 
+	margin: 1px 0;
+	border-top: 5px solid white
