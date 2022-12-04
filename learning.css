@@ -23,3 +23,11 @@
 { 
 	margin: 1px 0;
 	border-top: 5px solid white
+}
+.heading
+{
+	 padding: 9px;
+	 margin: 5px;
+	 border-radius: 7px;
+	 color:white;
+}
