@@ -7,5 +7,6 @@
     "better-comments.highlightPlainText": true,
     "extensions.closeExtensionDetailsOnViewChange": true,
     "extensions.ignoreRecommendations": true,
-    "extensions.experimental.useUtilityProcess": true
+    "extensions.experimental.useUtilityProcess": true,
+    "liveServer.settings.port": 5501
 }
