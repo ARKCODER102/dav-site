@@ -19,7 +19,7 @@
 }
 
 #slideshow {
-	background-color: red;
+	background-color: black;
 }
 
 #captions {
@@ -40,4 +40,9 @@
 
 .information {
 	padding-bottom: ;
+}
+#pics {
+	margin: 10px;
+	border-radius: 11px;
+	margin-right: 10px;
 }
