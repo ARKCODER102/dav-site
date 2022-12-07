@@ -1,0 +1,26 @@
+#header img {
+	height: 100px;
+}
+
+#header {
+	background-color: #4e0013;
+}
+.line1{
+	margin: 0px;
+	border-top: 5px solid black;
+}
+
+#navigation {
+	color: white;
+}
+
+#info {
+	color: white;
+
+}
+
+#pics {
+	margin: 10px;
+	border-radius: 11px;
+	margin-right: 10px;
+}
