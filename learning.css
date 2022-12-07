@@ -13,7 +13,18 @@
 }
 
 #navigation {
-	color: white;
+	color:white;
+	line-height: 16px;
+	font-size: 16px;
+	background-color: black;
+	width: 30em;
+    height: 5ex;
+	border: 2px solid firebrick;
+    border-radius: 10px;
+}
+
+#navigation:hover {
+	background-color: bisque;
 }
 
 #slideshow {
@@ -37,4 +48,8 @@
 	margin: 10px;
 	border-radius: 11px;
 	margin-right: 10px;
+	
+}
+.line1 {
+	opacity: 30;
 }
