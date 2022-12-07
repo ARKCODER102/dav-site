@@ -7,10 +7,13 @@
 #header {
 	background-color: #4e0013;
 }
-
 .line1{
 	margin: 0px;
 	border-top: 5px solid black;
+}
+
+#navigation {
+	color: white;
 }
 
 #slideshow {
