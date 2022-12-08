@@ -7,8 +7,10 @@
 #header {
 	background-color: #4e0013;
 }
-.line1{
-	background-color: black;
+
+
+#navigation:hover {
+	background-color: bisque;
 }
 
 #slideshow {
