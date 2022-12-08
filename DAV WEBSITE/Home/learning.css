@@ -9,17 +9,17 @@
 }
 .line1{
 	margin: 0px;
-	border-top: 5px solid black;
+	color: black;
 }
 
 #navigation {
-	color:white;
+	color:black;
 	line-height: 16px;
 	font-size: 16px;
 	background-color: black;
 	width: 30em;
     height: 5ex;
-	border: 2px solid firebrick;
+	border: 2px solid black;
     border-radius: 10px;
 }
 
@@ -49,7 +49,4 @@
 	border-radius: 11px;
 	margin-right: 10px;
 	
-}
-.line1 {
-	opacity: 30;
 }
