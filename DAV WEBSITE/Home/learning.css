@@ -8,23 +8,7 @@
 	background-color: #4e0013;
 }
 .line1{
-	margin: 0px;
-	color: black;
-}
-
-#navigation {
-	color:black;
-	line-height: 16px;
-	font-size: 16px;
 	background-color: black;
-	width: 30em;
-    height: 5ex;
-	border: 2px solid black;
-    border-radius: 10px;
-}
-
-#navigation:hover {
-	background-color: bisque;
 }
 
 #slideshow {
