@@ -13,4 +13,4 @@ function sendEmail(){
         message => alert("Message Sent Succesfully")
     );
 }
-                                        // Footer end
+                    // Footer end
