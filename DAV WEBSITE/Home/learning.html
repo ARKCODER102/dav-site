@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="learning.css" />
+    <link rel="stylesheet" href="resp.css">
     <link rel="stylesheet" href="w3.css" />
     <title>ॐ D.A.V. Sheikhpura ॐ</title>
   </head>
   <body>
-    <div class="w3-container w3-centre w3-mobile" id="header">
+    <div class="w3-container w3-centre w3-mobile" id="heading">
       <div class="w3-container" id="info">
         <table>
           <tr>
@@ -27,52 +28,24 @@
       </div>
     </div>
     <!-- Nav bar starts -->
-    <nav class="navbar h-nav-resp">
-      <ul class="nav-list v-class-resp">
-        <li><a href="#">home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">help</a></li>
-        <li><a href="#">Solution</a></li>
-      </ul>
-      <div class="burger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+    <header>
+      <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
       </div>
-    </nav>
+      <nav class="nav-bar">
+          <ul>
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Solution</a></li>
+          </ul>
+      </nav>
+    </header>
     <!-- Nav bar ends -->
     <!-- Slideshow -->
-    <div class="galleryContainer">
-      <div class="slideShowContainer">
-        <div id="playPause" onclick="playPauseSlides()"></div>
-        <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow">
-          <span class="arrow arrowLeft"></span>
-        </div>
-        <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow">
-          <span class="arrow arrowRight"></span>
-        </div>
-        <div class="captionTextHolder">
-          <p class="captionText slideTextFromTop"></p>
-        </div>
-        <div class="imageHolder">
-          <img src="../Pictures/shcool front.jpg" />1366X768
-          <p class="captionText">Caption Text-01</p>
-        </div>
-        <div class="imageHolder">
-          <img src="../Pictures/school back.jpg" />
-          <p class="captionText">Caption Text-02</p>
-        </div>
-        <div class="imageHolder">
-          <img src="../Pictures/Principal mam.jpg" />
-          <p class="captionText">Caption Text-03</p>
-        </div>
-        <div class="imageHolder">
-          <img src="../Pictures/school back.jpg" />
-          <p class="captionText">Caption Text-04</p>
-        </div>
-      </div>
-      <div id="dotsContainer"></div>
-    </div>
+    
     <!-- slideshow ends -->
     <div class="border">
       <h1 class="w3-center">
