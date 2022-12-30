@@ -110,7 +110,7 @@ var timer = null;
 function setTimer() {
   timer = setInterval(function () {
     plusSlides(1);
-  }, 3000);
+  }, 8000);
 }
 setTimer();
 function playPauseSlides() {
