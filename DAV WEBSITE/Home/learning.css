@@ -6,6 +6,7 @@
   text-decoration: none;
   font-family: "poppins", sans-serif;
 }
+
 /* A-C */
 
 #heading img {
@@ -96,7 +97,8 @@ header {
   width: 100%;
 }
 
-.swiper .swiper-button-prev, .swiper .swiper-button-next {
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
   color: #fff;
 }
 
@@ -152,56 +154,57 @@ form button {
   margin: 20px auto 0;
   border-radius: 30px;
 }
+
 /* footer ends */
 
 @media only screen and (max-width: 900px) {
 
   header {
-      padding: 20px 30px;
+    display: block;
+    padding: 20px 30px;
   }
 
   .hamburger {
-      display: block;
-      cursor: pointer;
+    display: block;
+    cursor: pointer;
   }
 
   .hamburger .line {
-      width: 30px;
-      height: 3px;
-      margin: 6px 0;
-      background-color: #fefefe;
+    width: 30px;
+    height: 3px;
+    margin: 6px 0;
+    background-color: #fefefe;
   }
 
   .nav-bar {
-      height: 0;
-      position: absolute;
-      left: 0;
-      right: 0;
-      background: #11101b;
-      opacity: 0.99;
-      transition: 0.5s;
-      overflow: hidden;
+    height: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #11101b;
+    opacity: 0.99;
+    transition: 0.5s;
+    overflow: hidden;
   }
 
   .nav-bar.active {
-      height: 450px;
+    height: 450px;
   }
 
   .nav-bar ul {
-      display: block;
-      width: fit-content;
-      margin: 80px auto 0 auto;
-      text-align: center;
-      transition: 0.5s;
-      opacity: 0;
+    display: block;
+    width: fit-content;
+    margin: 80px auto 0 auto;
+    text-align: center;
+    transition: 0.5s;
+    opacity: 0;
   }
 
-  .nav-bar.active ul 
-  {
-      opacity: 1;
+  .nav-bar.active ul {
+    opacity: 1;
   }
 
   .nav-bar ul li a {
-      margin-bottom: 12px;
+    margin-bottom: 12px;
   }
 }
