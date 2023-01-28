@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="learning.css" />
-    <link rel="stylesheet" href="resp.css">
+    <link rel="stylesheet" href="resp.css" />
     <link rel="stylesheet" href="w3.css" />
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-/>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <title>ॐ D.A.V. Sheikhpura ॐ</title>
   </head>
   <body>
@@ -32,41 +36,47 @@
       </div>
     </div>
     <!-- Nav bar starts -->
-    <header>
-      <div class="hamburger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-      </div>
-      <nav class="nav-bar">
-          <ul>
-              <li><a href="#" class="active">Home</a></li>
-              <li><a href="#">News</a></li>
+      <nav class="navbar back h-nav-resp">
+          <ul class="nav-list v-class-resp">
+              <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
-              <li><a href="#">Solution</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact us</a></li>
           </ul>
+          <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
       </nav>
-    </header>
     <!-- Nav bar ends -->
     <!-- Slideshow -->
-    <div class="slideshow">
-      <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide"><img src="../Pictures/shcool front.jpg" alt=""></div>
-          <div class="swiper-slide"><img src="../Pictures/school back.jpg" alt=""></div>
-          <div class="swiper-slide"><img src="../Pictures/Principal mam.jpg" alt=""></div>
-          ...
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-      
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+    <div class="galleryContainer">
+      <div class="slideShowContainer">
+          <div id="playPause" onclick="playPauseSlides()"></div>
+          <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+          <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+          <div class="captionTextHolder"><p class="captionText slideTextFromTop"></p></div>
+          <div class="imageHolder">
+              <img src="../Pictures/Principal mam.jpg">1366X768
+              <p class="captionText">Caption Text-01</p>
+          </div>
+          <div class="imageHolder">
+              <img src="../Pictures/school back.jpg">
+              <p class="captionText">Caption Text-02</p>
+          </div>
+          <div class="imageHolder">
+              <img src="../Pictures/shcool front.jpg">
+              <p class="captionText">Caption Text-03</p>
+          </div>
+          <div class="imageHolder">
+              <img src="../Pictures/Principal mam.jpg">
+              <p class="captionText">Caption Text-04</p>
+          </div>
       </div>
-    </div>
+      <div id="dotsContainer"></div>
+  </div>
+
     <!-- slideshow ends -->
     <div class="border">
       <h1 class="w3-center">
@@ -86,6 +96,14 @@
     </div>
     <!-- footer end -->
   </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="learning.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
