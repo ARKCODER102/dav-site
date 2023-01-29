@@ -1,10 +1,10 @@
 // Footer
 function sendEmail() {
   Email.send({
-    SecureToken: "bada3c01-2766-417c-98f4-d65070809fe7",
-    To: "beautyravi25@gmail.com",
+    SecureToken: "c5667ad5-9ad2-4040-a02c-67d5ca0277fb",
+    To: "abhinav.raj.kumar23@gmail.com",
     From: document.getElementById("email").value,
-    Subject: "This is the subject",
+    Subject: "Subject: ",
     Body:
       "Name: " +
       document.getElementById("name").value +
@@ -14,7 +14,8 @@ function sendEmail() {
       document.getElementById("phone").value +
       "<br> Message: " +
       document.getElementById("message").value,
-  }).then((message) => alert("Message Sent Successfully"));
+  }).then(
+    message => alert("message"));
 }
 // Footer end
 // nav bar
