@@ -1,22 +1,19 @@
 // Footer
-function sendEmail() {
-  Email.send({
-    SecureToken: "c5667ad5-9ad2-4040-a02c-67d5ca0277fb",
-    To: "abhinav.raj.kumar23@gmail.com",
-    From: document.getElementById("email").value,
-    Subject: "Subject: ",
-    Body:
-      "Name: " +
-      document.getElementById("name").value +
-      "<br> Email: " +
-      document.getElementById("email").value +
-      "<br> Phone no.: " +
-      document.getElementById("phone").value +
-      "<br> Message: " +
-      document.getElementById("message").value,
-  }).then(
-    message => alert("message"));
+function sendEmail(){
+    Email.send({
+        SecureToken: "12ea53c7-cbc1-4659-86b4-a086803008fa",
+        To : 'aaryan.raj.kumar25@gmail.com',
+        From : document.getElementById('email').value,
+        Subject : document.getElementById('subject').value,
+        Body : "Name: " + document.getElementById('name').value
+            +"<br> Email: " + document.getElementById('email').value
+            +"<br> Phone No.: " + document.getElementById('phone').value
+            +"<br> Message: " + document.getElementById('message').value
+    }).then(
+    message => alert("Message sent successfully")
+    );
 }
+
 // Footer end
 // nav bar
 burger = document.querySelector(".burger");

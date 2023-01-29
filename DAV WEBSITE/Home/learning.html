@@ -102,7 +102,7 @@
 			</div>
 			<div class="contact-in">
 				<h1>Send a Message</h1>
-				<form>
+				<form onsubmit="sendEmail(); reset(); return false;">
 					<input type="text" id="name" placeholder="Full Name" class="contact-in-input" required>
 					<input type="email" id="email" placeholder="Email" class="contact-in-input" required>
 					<input type="text" id="phone" placeholder="Phone Number" class="contact-in-input" required>
