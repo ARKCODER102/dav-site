@@ -103,12 +103,18 @@
 			<div class="contact-in">
 				<h1>Send a Message</h1>
 				<form onsubmit="sendEmail(); reset(); return false;">
-					<input type="text" id="name" placeholder="Full Name" class="contact-in-input" required>
-					<input type="email" id="email" placeholder="Email" class="contact-in-input" required>
-					<input type="text" id="phone" placeholder="Phone Number" class="contact-in-input" required>
-					<input type="text" id="subject" placeholder="Subject" class="contact-in-input" required>
-					<textarea placeholder="Message" id="message" class="contact-in-textarea" required></textarea>
-					<button type="submit" value="SUBMIT" class="contact-in-btn">SUBMIT</button>
+          <span id="name-error"></span>
+					<input type="text" id="contact-name" placeholder="Full Name" class="contact-in-input"  onkeyup="validateName()">
+          <span id="email-error"></span>
+					<input type="email" id="contact-email" placeholder="Email" class="contact-in-input" onkeyup="validateEmail()" >
+          <span id="phone-error"></span>
+					<input type="text" id="contact-phone" placeholder="Phone Number" class="contact-in-input" onkeyup="validatePhone()" >
+          <span id="subject-error"></span>
+					<input type="text" id="contact-subject" placeholder="Subject" class="contact-in-input" onkeyup="validateSubject()">
+          <span id="message-error"></span>
+					<textarea placeholder="Message" id="contact-message" class="contact-in-textarea" onkeyup="validateMessage()" ></textarea>
+					<button type="submit" value="SUBMIT" class="contact-in-btn" onclick="return validateForm()">SUBMIT</button>
+          <span id="submit-error"></span>
 				</form>
 			</div>
 			<div class="contact-in">

@@ -431,6 +431,16 @@
 	height: 100%;
 }
 
+.contact-in span {
+  font-size: 14px;
+  color: red;
+}
+
+.contact-in span i {
+  color: seagreen;
+}
+
+
 @media only screen and (max-width:480px) {
 	.contact-in:nth-child(1) {
 		flex: 50%;
