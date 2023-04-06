@@ -71,7 +71,7 @@ header {
         left: 0;
         right: 0;
         width: 100vw;
-        background: #11101b;
+        background-color: #4e0013;
         transition: 0.5s;
         overflow: hidden;
     }
